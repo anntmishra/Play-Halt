@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Play-Halt",
+  "version": "1.0",
+  "description": "Pauses any video playing in the browser when the user switches to another window, tab, or slides to another desktop window, and resumes when back.",
+  "permissions": [
+    "management",
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
