@@ -28,17 +28,7 @@ Usage
 	•	Activate play-halt by clicking on its icon in the browser toolbar.
 	•	Enjoy uninterrupted coding sessions as videos are automatically paused when you switch to your code editor.
 
-Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
-
-Support
-
-For any issues or suggestions, please open an issue on GitHub.
-
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 Author
 
